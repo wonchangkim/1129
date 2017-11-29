@@ -163,7 +163,7 @@ html, body, h1, h2, p {
 }
 .main-article-quote q::before {
   position: absolute;
-  content: url("./images/quote.png");
+  content: url("../images/quote.png");
   left: -44px;
   top: 0;
 }
@@ -219,7 +219,7 @@ html, body, h1, h2, p {
   cursor: pointer;
   float: left;
   overflow: hidden;
-  background: url("./images/icon-prev.png") no-repeat;
+  background: url("../images/icon-prev.png") no-repeat;
   background-position: 25px 23px;
   padding-top: 60px;
 }
@@ -231,7 +231,7 @@ html, body, h1, h2, p {
   cursor: pointer;
   float: left;
   overflow: hidden;
-  background: url("./images/icon-next.png") no-repeat;
+  background: url("../images/icon-next.png") no-repeat;
   background-position: 25px 23px;
   padding-top: 60px;
   margin-left: 1px;
@@ -270,7 +270,7 @@ html, body, h1, h2, p {
 }
 .sub-article-quote-content q::before {
   position: absolute;
-  content: url("./images/quote1.png");
+  content: url("../images/quote1.png");
   left: -42px;
   top: 0;
 }
@@ -352,7 +352,7 @@ html, body, h1, h2, p {
   bottom: 60px;
   width: 40px;
   height: 54px;
-  background: url('./images/icon-paly.png') no-repeat 50%;
+  background: url('../images/icon-paly.png') no-repeat 50%;
   ;
   overflow: hidden;
   border: 0;
@@ -418,19 +418,19 @@ html, body, h1, h2, p {
   padding-right: 20px;
 }
 .facebook {
-  background: url("./images/facebool.png") no-repeat 15px 50%;
+  background: url("../images/facebool.png") no-repeat 15px 50%;
   background-color: #215b9a;
 }
 .twitter {
-  background: url("./images/icon-twitter.png") no-repeat 15px 50%;
+  background: url("../images/icon-twitter.png") no-repeat 15px 50%;
   background-color: #00adf2;
 }
 .google {
-  background: url("./images/icon-google.png") no-repeat 15px 50%;
+  background: url("../images/icon-google.png") no-repeat 15px 50%;
   background-color: #ce4435;
 }
 .pinterest {
-  background: url("./images/icon-pinterest.png") no-repeat 15px 50%;
+  background: url("../images/icon-pinterest.png") no-repeat 15px 50%;
   background-color: #e51616;
 }
 .back {
@@ -443,6 +443,6 @@ html, body, h1, h2, p {
   color: #1f4ba5;
 }
 .back a::before {
-  content: url("./images/icon-back.png");
+  content: url("../images/icon-back.png");
   padding-right: 10px;
 }
